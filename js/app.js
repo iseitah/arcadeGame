@@ -48,7 +48,7 @@ Enemy.prototype.update = function(dt) {
 //collisions detect
 Enemy.prototype.checkCollisions = function(){
      //To reset the player whenever hits the bugs
-     if ((this.x - 30 <= player.x &&  this.x + 30 >= player.x) && (this.y - 30 <= player.y && this.y + 30 >= player.y)){
+     if ((this.x - 40 <= player.x &&  this.x + 40 >= player.x) && (this.y - 40 <= player.y && this.y + 40 >= player.y)){
         if (score >0){
             score--; //If score greater than zero, decrease by one
             document.getElementById("scoreData").innerHTML = score;
@@ -119,7 +119,7 @@ player.prototype.handleInput = function(input){
 
 };
 // Now instantiate your objects.
-var enemy1 = new Enemy(-100 , 220);
+var enemy1 = new Enemy(-100 , 210);
 var enemy2 = new Enemy(-150 , 140);
 var enemy3 = new Enemy(-230 , 60);
 var enemy4 = new Enemy(-290 , 140);
