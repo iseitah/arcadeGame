@@ -48,7 +48,7 @@ Enemy.prototype.update = function(dt) {
 //collisions detect
 Enemy.prototype.checkCollisions = function(){
      //To reset the player whenever hits the bugs
-     if ((this.x - 40 <= player.x &&  this.x + 40 >= player.x) && (this.y - 40 <= player.y && this.y + 40 >= player.y)){
+     if ((this.x - 30 <= player.x &&  this.x + 30 >= player.x) && (this.y - 30 <= player.y && this.y + 30 >= player.y)){
         if (score >0){
             score--; //If score greater than zero, decrease by one
             document.getElementById("scoreData").innerHTML = score;
