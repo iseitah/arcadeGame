@@ -10,7 +10,7 @@ body {
 }
 
 /* Home Screen - index.html */
-#homeScreen{
+#homeScreen {
 	width: 505px;
   height: 606px;
   border:5px solid #cccccc;
@@ -20,29 +20,29 @@ body {
  
 }
 
-#score-panel{
+#score-panel {
   width: 505px;
   display: block;
   margin:0 auto;
   font-size: 2vw;
 }
-#score{
+#score {
   width: 50%;
   float: left;
 }
 
-#timer{
+#timer {
   width: 50%;
   float: left;
 }
-.icon{
+.icon {
   width: 70px;
   height: 70px;
   vertical-align: middle;
 }
 /* End Screens - win.html & lose.html */
 
-#container2{
+#container2 {
   position:absolute;
   left:38%;
   top:40%;
@@ -51,7 +51,7 @@ body {
   z-index: 2;
 }
 
-#img{
+#img {
 	width: 198px;
 	height: 97px;
 }
