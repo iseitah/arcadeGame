@@ -7,7 +7,7 @@ In this game you have a Player and Enemies (Bugs). The goal of the player is to 
 ## Instructions
 
 # How to play the game?
-### TO PLAY [Click here](https://iseitah.github.io/memory-game/).
+### TO PLAY [Click here](https://iseitah.github.io/arcadeGame/).
 
 - move the player with ( keyboard arrows ) to reach the water more than or equal to 10 before timer done to win the game.
 - Once you Download all files, click on index.html to start the game.
